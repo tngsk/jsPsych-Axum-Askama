@@ -1,0 +1,130 @@
+{
+    "trials": [
+        {
+            "success": true,
+            "timeout": false,
+            "failed_images": [],
+            "failed_audio": [],
+            "failed_video": [],
+            "trial_type": "preload",
+            "trial_index": 0,
+            "plugin_version": "2.0.0",
+            "time_elapsed": 7
+        },
+        {
+            "rt": 1801,
+            "stimulus": "Welcome to the expriment. Press any key to begin.",
+            "response": "j",
+            "trial_type": "html-keyboard-response",
+            "trial_index": 1,
+            "plugin_version": "2.0.0",
+            "time_elapsed": 1809
+        },
+        {
+            "rt": 657,
+            "stimulus": "\n    <p>In this experiment, a circle will appear in the center\n    of the screen.</p><p>If the circle is <strong>blue</strong>,\n    press the letter F on the keyboard as fast as you can.</p>\n    <p>If the circle is <strong>orange</strong>, press the letter J\n    as fast as you can.</p>\n    <div style='width: 700px;'>\n    <div style='float: left;'><img src='stimulus_assets/blue.png'></img>\n    <p class='small'><strong>Press the F key</strong></p></div>\n    <div style='float: right;'><img src='stimulus_assets/orange.png'></img>\n    <p class='small'><strong>Press the J key</strong></p></div>\n    </div>\n    <p>Press any key to begin.</p>\n  ",
+            "response": "f",
+            "trial_type": "html-keyboard-response",
+            "trial_index": 2,
+            "plugin_version": "2.0.0",
+            "time_elapsed": 2468
+        },
+        {
+            "task": "fixation",
+            "rt": null,
+            "stimulus": "<div class=\"fixation\">+</div>",
+            "response": null,
+            "trial_type": "html-keyboard-response",
+            "trial_index": 3,
+            "plugin_version": "2.0.0",
+            "time_elapsed": 4972
+        },
+        {
+            "task": "response",
+            "correct_response": "j",
+            "rt": 2,
+            "stimulus": "stimulus_assets/orange.png",
+            "response": "j",
+            "trial_type": "image-keyboard-response",
+            "trial_index": 4,
+            "plugin_version": "2.0.0",
+            "time_elapsed": 4977,
+            "correct": true
+        },
+        {
+            "task": "fixation",
+            "rt": null,
+            "stimulus": "<div class=\"fixation\">+</div>",
+            "response": null,
+            "trial_type": "html-keyboard-response",
+            "trial_index": 5,
+            "plugin_version": "2.0.0",
+            "time_elapsed": 6479
+        },
+        {
+            "task": "response",
+            "correct_response": "f",
+            "rt": 71,
+            "stimulus": "stimulus_assets/blue.png",
+            "response": "j",
+            "trial_type": "image-keyboard-response",
+            "trial_index": 6,
+            "plugin_version": "2.0.0",
+            "time_elapsed": 6553,
+            "correct": false
+        },
+        {
+            "task": "fixation",
+            "rt": null,
+            "stimulus": "<div class=\"fixation\">+</div>",
+            "response": null,
+            "trial_type": "html-keyboard-response",
+            "trial_index": 7,
+            "plugin_version": "2.0.0",
+            "time_elapsed": 8056
+        },
+        {
+            "task": "response",
+            "correct_response": "f",
+            "rt": 0,
+            "stimulus": "stimulus_assets/blue.png",
+            "response": "f",
+            "trial_type": "image-keyboard-response",
+            "trial_index": 8,
+            "plugin_version": "2.0.0",
+            "time_elapsed": 8058,
+            "correct": true
+        },
+        {
+            "task": "fixation",
+            "rt": null,
+            "stimulus": "<div class=\"fixation\">+</div>",
+            "response": null,
+            "trial_type": "html-keyboard-response",
+            "trial_index": 9,
+            "plugin_version": "2.0.0",
+            "time_elapsed": 8311
+        },
+        {
+            "task": "response",
+            "correct_response": "j",
+            "rt": 117,
+            "stimulus": "stimulus_assets/orange.png",
+            "response": "f",
+            "trial_type": "image-keyboard-response",
+            "trial_index": 10,
+            "plugin_version": "2.0.0",
+            "time_elapsed": 8431,
+            "correct": false
+        },
+        {
+            "rt": 160,
+            "stimulus": "<p>You responded correctly on 50% of the trials.</p>\n          <p>Your average response time was 1ms.</p>\n          <p>Press any key to complete the experiment. Thank you!</p>",
+            "response": "j",
+            "trial_type": "html-keyboard-response",
+            "trial_index": 11,
+            "plugin_version": "2.0.0",
+            "time_elapsed": 8597
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* jsPsych CSS */
+
+/* .jspsych-display-element {} */
+
+.jspsych-content-wrapper {
+    @apply w-full
+}
+
+.jspsych-content {
+    @apply w-full prose max-w-none
+}
+
+/* Button */
+.jspsych-btn {
+    @apply btn
+}
+
+#jspsych-html-button-response-stimulus {
+    @apply mb-5
+}
+
+#jspsych-html-button-response-btngroup {
+    @apply text-center
+}
+
+/* .jspsych-html-button-response-button {} */
+
+/* Slider */
+/* .jspsych-html-slider-response-wrapper {} */
+
+/* .jspsych-html-slider-response-stimulus {} */
+
+/* .jspsych-html-slider-response-container {} */
+
+.jspsych-slider {
+    @apply range
+}
+
+/* 画像ボタンにする場合のスペーシング */
+.jspsych-image-btn {
+    @apply relative ml-5 mr-5 outline-none cursor-pointer
+}
+
+/* .jspsych-image-btn img {@apply absolute top-0 left-0 w-full} */
+
+/* レーティングのスペーシング */
+.rating input {
+    @apply ml-2 mr-2
+}
+
+.radio-response input {
+    @apply ml-5 mr-5
+}
+
+/* surveyのラジオボタン */
+
+input[type="radio"] {
+    @apply radio
+}
+
+/* WeProbe CSS */
+
+html {
+    user-select: none;
+}
+
+#fixation {
+    @apply text-7xl absolute top-1/2 left-1/2 z-50 -translate-x-1/2 -translate-y-1/2 invisible
+}
+
+.fixation {
+    @apply text-7xl absolute top-1/2 left-1/2 z-50 -translate-x-1/2 -translate-y-1/2
+}
+
+.reverse {
+    transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+}
+
+.cue {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    @apply bg-base-100
+}
+
+.target {
+    width: 80%;
+    height: 20px;
+    @apply bg-base-100
+}
+
+#spacer1 {
+    width: 20px;
+}
+
+.blink {
+    @apply bg-base-content
+}

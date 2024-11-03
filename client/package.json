@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "daisyui": "4.12.10",
+    "tailwindcss": "3.4.10",
+    "axios": "1.7.4",
+    "jspsych": "8.0.2",
+    "@jspsych/plugin-html-keyboard-response": "2.0.0",
+    "@jspsych/plugin-html-button-response": "2.0.0",
+    "@jspsych/plugin-image-keyboard-response": "2.0.0",
+    "@jspsych/plugin-preload": "2.0.0",
+    "@jspsych/plugin-browser-check": "2.0.0",
+    "@jspsych/plugin-call-function": "2.0.0",
+    "@jspsych/plugin-fullscreen": "2.0.0"
+  },
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "1.1.24"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "bun build ./src/index.ts --outdir ./dist/js & bunx tailwindcss -i ./dist/css/style-src.css -o ./dist/css/style.css",
+    "dev": "bun build ./src/index.ts --outdir ./dist/js --watch & bunx tailwindcss -i ./dist/css/style-src.css -o ./dist/css/style.css --watch & bunx serve ./dist",
+    "serve": "bunx serve ./dist"
+  }
+}
